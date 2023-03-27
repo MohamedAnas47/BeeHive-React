@@ -20,4 +20,8 @@
     width: 100%;
   }
 }
-
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .container {
+    width: 98%;
+  }
+}

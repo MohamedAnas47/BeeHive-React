@@ -194,6 +194,9 @@
   display: flex;
   justify-content: center;
 }
+.carousel .thumb {
+  border: 3px solid #fcebe2 !important;
+}
 .carousel .thumb img {
   display: none;
 }
@@ -244,8 +247,7 @@
   margin: 15px;
   border-radius: 20px;
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 .works img {
   padding-top: 1.5rem;
@@ -361,6 +363,7 @@
   padding-right: 1rem;
   padding-left: 1rem;
   background-color: #fc6411;
+  cursor: pointer;
   border-radius: 30px;
   font-size: 1rem;
   font-weight: 500;
@@ -412,6 +415,7 @@
   padding-bottom: 0.75rem;
   border-radius: 30px;
   background-color: #fc6411;
+  cursor: pointer;
   border: none;
   margin-top: 20px;
 }
@@ -438,7 +442,7 @@
   color: #0d3d4d;
 }
 .but7 {
-  width: 100%;
+  width: 95%;
   cursor: pointer;
 }
 
@@ -485,15 +489,16 @@
   margin: auto;
   display: flex;
   flex-direction: row;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .footlink {
-  width: 15%;
+  width: 16%;
 }
 .footlink img {
   width: 100px;
   margin-top: -20px;
+  margin-left: 40px;
 }
 .footlink ul li span {
   font-size: 1.5rem;
@@ -502,7 +507,7 @@
   font-weight: 300;
 }
 .footlink ul li {
-  font-size: 1.05rem;
+  font-size: 1rem;
   list-style: none;
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
@@ -510,7 +515,7 @@
   font-weight: 200;
 }
 .footlink ul li:hover {
-  color: blue;
+  color: #fc6411;
 }
 
 /*-----ApplyHead-----*/
@@ -731,5 +736,12 @@
     width: 100%;
     margin: 8px;
     text-align: center;
+  }
+}
+
+/* media queries Lap and System */
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .main_foot {
+    justify-content: space-around;
   }
 }
