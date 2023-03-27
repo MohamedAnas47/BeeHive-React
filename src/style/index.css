@@ -1,0 +1,23 @@
+@import url("./style.css");
+@import url("./apply.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 80%;
+}
+@media (max-width: 900px) and (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .container {
+    width: 100%;
+  }
+}
+
